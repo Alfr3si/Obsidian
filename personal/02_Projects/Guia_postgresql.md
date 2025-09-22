@@ -110,10 +110,10 @@ Si ves el propmt 'miproyecto=>', funciona. ✅
 
 ```
 
-> [!note]
-> Para usar la interfaz de vimdadbod en neovim debes usar el comando  
-> :DBUI con esto puedes abrir la interfaz de bases de datos  
-> tambien  
-> :DBUIAddConnection para agregar una nueva conexion.  
-> Alli puedes colocar la URL de conexion a Postgresql  
-> postgresql://alfr3d:12345@localhost:5432/miproyecto
+Para usar la interfaz de vimdadbod en neovim debes usar el comando  
+`:DBUI` con esto puedes abrir la interfaz de bases de datos  
+tambien  
+`:DBUIAddConnection` para agregar una nueva conexion.  
+Alli puedes colocar la URL de conexion a Postgresql  
+ejemplo:  
+`postgresql://alfr3d:12345@localhost:5432/miproyecto`
